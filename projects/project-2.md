@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/fig13_sm.jpg
+image: images/
 title: ColorTable
 permalink: projects/ColorTable
 # All dates must be YYYY-MM-DD format!
