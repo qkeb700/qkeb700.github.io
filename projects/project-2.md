@@ -1,25 +1,25 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/fig13_sm.jpg
+title: ColorTable
+permalink: projects/ColorTable
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-1-17
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Java
+  - C++
+  - C
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: A useful application for changing the original color table of gif file to the new result file.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/fig13_sm.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+GIF employs a variety of ways to store image data. One of them is use of "color table," or a color palette. First, you define an index for each color you will use, e.g., 0 for white, 1 for black, 2 for blue, and so on. Based on this table, you can encode each pixel with the corresponding color index.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Modifying the color table
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+When you open the GIF file, your computer actually draws the image based on the color palettes in the file. What if we replace them with other palettes? Let's say we hack and modify the color table, and change white (FF FF FF) to black (00 00 00), red (FF 00 00) to cyan (00 FF FF), blue (00 00 FF) to yellow (FF FF 00), green (00 FF 00) to magenta (FF 00 FF). The resulted image from the one above is like this.
+
+In this project, I gained experience with dealing with Image file and got more interested in C++. 
