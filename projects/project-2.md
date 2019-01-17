@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images
+image: images/fig13_sm.jpg
 title: ColorTable
 permalink: projects/ColorTable
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ labels:
 summary: A useful application for changing the original color table of gif file to the new result file.
 ---
 
-<img class="ui medium right floated rounded image" src="../images">
+<img class="ui medium right floated rounded image" src="../images/fig13_sm.jpg">
 
 GIF employs a variety of ways to store image data. One of them is use of "color table," or a color palette. First, you define an index for each color you will use, e.g., 0 for white, 1 for black, 2 for blue, and so on. Based on this table, you can encode each pixel with the corresponding color index.
 
