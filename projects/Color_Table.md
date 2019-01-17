@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/fig13_sm.gif
-title: GIF Color Table
+title: GIF_Color_Table
 permalink: projects/color_table
 date: 2019-1-17
 labels:
