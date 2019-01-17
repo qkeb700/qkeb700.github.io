@@ -2,13 +2,13 @@
   "basics": {
     "name": "Hoyeon Jang",
     "label": "Student",
-    "picture": "https://qkeb700.github.io/template/images/molly.png",
+    "picture": "https://qkeb700.github.io/template/images/IMG_121238.JPG",
     "email": "hjang@hawaii.edu",
     "phone": "808-384-7404",
     "website": "https://qkeb700.github.io",
     "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "",
+      "address": "1212 Punahou St",
       "postalCode": "96826",
       "city": "Honolulu",
       "countryCode": "USA",
