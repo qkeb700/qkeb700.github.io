@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/linked.jpeg
-title: Vacay
-permalink: projects/vacay
+title: linked
+permalink: projects/linked
 date: 2019-1-17
 labels:
   - C
