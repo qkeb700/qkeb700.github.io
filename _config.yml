@@ -6,7 +6,7 @@ title: Hoyeon Jang | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://qkeb700.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: "qkeb700.github.io"
+baseurl: ""
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
