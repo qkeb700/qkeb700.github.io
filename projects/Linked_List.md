@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/linked.jpeg
 title: linked
-permalink: projects/linked
+permalink: projects/linkedList
 date: 2019-1-17
 labels:
   - C
