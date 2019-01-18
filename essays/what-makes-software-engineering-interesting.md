@@ -1,14 +1,12 @@
 ---
 layout: essay
 type: essay
-published: true
 title: What Makes Software Engineering Interesting
 date: 2017-01-17
 labels:
   - Software Engineering
   - Learning
 ---
-
 ## What Makes Software Engineering Interesting
 
 Software Engineering is a lot of fun. What I find interesting in Software Engineering is that being software engineer makes me 
