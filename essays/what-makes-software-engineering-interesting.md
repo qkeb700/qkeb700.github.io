@@ -4,8 +4,8 @@ type: essay
 title: What Makes Software Engineering Interesting
 date: 2017-01-17
 labels:
-  - Software Engineering
-  - Learning
+ - Software Engineering
+ - Learning
 ---
 
 ## What Makes Software Engineering Interesting
