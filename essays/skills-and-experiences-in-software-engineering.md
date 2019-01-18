@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Interesting, skills and experiences in software engineering
+title: Interesting skills and experiences in software engineering
 # All dates must be YYYY-MM-DD format!
 date: 2017-01-17
 labels:
@@ -11,6 +11,8 @@ labels:
 
 
 ## What makes software engineering interesting
+
+
 Software Engineering is a lot of fun. What I find interesting in Software Engineering is that being software engineer makes me 
 think creatively and develop myself at the same time. I used to get frustrated 
 when I get stuck in coding programs that I wanted to create. 
@@ -23,6 +25,8 @@ If you are not interested in learning something , this would sound awful, but if
 there is no ending supply of fun things to learn. 
 
 ## Skills and experiences, I hope to develop in future
+
+
 Getting used to Software Engineering requires for a lot of work to do.  
 Too much work form Software Engineering might cause bad effects on you, 
 but if you keep up with the way how you work on it, and go through those hardships, 
