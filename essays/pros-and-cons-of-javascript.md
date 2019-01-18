@@ -14,9 +14,10 @@ labels:
 
 <img class="ui medium floated rounded image" src="../images/advantage.jpg">
 
+
 ## First Meet with JavaScript
 
-  JavaScript is one of convenient high level of interpreted programming language that I have learned so far. 
+    JavaScript is one of convenient high level of interpreted programming language that I have learned so far. 
 What I learned first about is Java programming language. 
 When I learned the language, I was only capable of coding basic programs such as print out functions and arithmetic operations. 
 Through the Java learning class, I could experience JavaScript a little bit. 
