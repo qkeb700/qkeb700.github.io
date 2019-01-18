@@ -12,7 +12,7 @@ labels:
 
 <img class="ui medium right floated rounded image" src="../images/json.png">
 
-<img class="ui medium floated rounded image" src="../images/advantage.jpg">
+<img class="ui low rightfloated rounded image" src="../images/advantage.jpg">
 
 
 
