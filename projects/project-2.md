@@ -5,7 +5,7 @@ image: images/fig13_sm.jpg
 title: ColorTable
 permalink: projects/colorTable
 # All dates must be YYYY-MM-DD format!
-date: 2017-1-17
+date: 2017-01-17
 labels:
   - Java
   - C++
