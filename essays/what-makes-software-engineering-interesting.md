@@ -7,6 +7,7 @@ labels:
   - Software Engineering
   - Learning
 ---
+
 ## What Makes Software Engineering Interesting
 
 Software Engineering is a lot of fun. What I find interesting in Software Engineering is that being software engineer makes me 
