@@ -4,7 +4,7 @@ type: project
 image: images/linked.jpeg
 title: Linkedlist
 permalink: projects/linkedlist
-date: 2019-1-17
+date: 2019-01-17
 labels:
   - C
   - C++
