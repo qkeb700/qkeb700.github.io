@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/fig13_sm.jpg
 title: ColorTable
-permalink: projects/ColorTable
+permalink: projects/colorTable
 # All dates must be YYYY-MM-DD format!
 date: 2017-1-17
 labels:
