@@ -9,8 +9,7 @@ labels:
   - Learning
 ---
 
-
-What makes software engineering interesting
+## What makes software engineering interesting
 
 Software Engineering is a lot of fun. What I find interesting in Software Engineering is that being software engineer makes me 
 think creatively and develop myself at the same time. I used to get frustrated 
@@ -23,7 +22,7 @@ It offers to get a job that can make money, and good software engineers are alwa
 If you are not interested in learning something, this would sound awful, but if you like to learn, in software engineering, 
 there is no ending supply of fun things to learn. 
 
-Skills and experiences, I hope to develop in future
+## Skills and experiences, I hope to develop in future
 
 Getting used to Software Engineering requires for a lot of work to do.  
 Too much work form Software Engineering might cause bad effects on you, 
