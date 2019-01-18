@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Interesting skills and experiences in software engineering
 # All dates must be YYYY-MM-DD format!
-date: 2019-1-17
+date: 2019-01-17
 labels:
   - Engineering
   - Learning
