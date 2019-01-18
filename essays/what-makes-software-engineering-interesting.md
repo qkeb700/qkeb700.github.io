@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+published: true
 title: What Makes Software Engineering Interesting
 date: 2017-01-17
 labels:
