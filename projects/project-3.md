@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: images/linked.jpeg
-title: linked
-permalink: projects/linkedList
+title: Linkedlist
+permalink: projects/linkedlist
 date: 2019-1-17
 labels:
   - C
