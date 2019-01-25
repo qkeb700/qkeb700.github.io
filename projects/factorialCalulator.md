@@ -4,11 +4,10 @@ type: project
 image: images/calculators_math_factors.png
 title: Factor Calculator
 permalink: projects/factor
-date: 2019-01-17
+date: 2018-12-17
 labels:
   - C
-  - factr Calulator
-  - C++
+  - factor Calulator
 summary: A factor calculator that I developed for ICS 212. The program generates a list of factors of an interger given by the user interface.
 ---
 
