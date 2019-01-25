@@ -29,6 +29,6 @@ Quit the program.
 
 For this project, I gained a lot of experience with linked list in C. This was my biggest and hardest project when I practice programming in C. 
 
-<img class="ui medium right floated rounded image" src="../images/menu.png">
+<img class="ui centered rounded huge image" src="../images/menu.png">
 
 
