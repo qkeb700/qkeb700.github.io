@@ -51,7 +51,6 @@ you should notify “what” exactly symptoms the problem has,
 and “when” it happened so that users can clearly and closely look into some points that they think that that problem has occurred.
 
 ## Examples
-</p>
 
 <a href="https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do/231855#231855">
 <img  class="ui centered huge image" src="../images/bad.png">
@@ -62,7 +61,6 @@ he or she didn’t try and understand before asking a question.
 The questioner didn’t also provide a vendor’s distribution and release level, 
 so those who tried to answer for the question had a difficult figuring out what is wrong with it. 
 
-</p>
 
 <a href="https://stackoverflow.com/questions/22295665/how-much-is-the-overhead-of-smart-pointers-compared-to-normal-pointers-in-c">
 <img  class="ui centered huge image" src="../images/good.png">
