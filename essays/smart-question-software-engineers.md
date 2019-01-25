@@ -54,7 +54,7 @@ and “when” it happened so that users can clearly and closely look into some 
 
 <a href="https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do/231855#231855">
 <img  class="ui centered huge image" src="../images/bad.png">
-</a>
+
 
 This example is a bad question because the question is not informative enough to give a correct answer and 
 he or she didn’t try and understand before asking a question. 
@@ -64,7 +64,7 @@ so those who tried to answer for the question had a difficult figuring out what 
 
 <a href="https://stackoverflow.com/questions/22295665/how-much-is-the-overhead-of-smart-pointers-compared-to-normal-pointers-in-c">
 <img  class="ui centered huge image" src="../images/good.png">
-</a>
+
 
 This example is a smart question because he searched for the problem he got before asking question and 
 showed us how much efforts put in by showing some code that he tried but failed. 
