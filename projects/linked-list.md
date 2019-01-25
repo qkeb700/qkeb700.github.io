@@ -7,7 +7,6 @@ permalink: projects/linkedlist
 date: 2019-01-17
 labels:
   - C
-  - C++
   - MongoDB
   - GitHub
 summary: A bank database application that I worked on in ICS class.
