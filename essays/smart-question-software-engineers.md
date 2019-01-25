@@ -11,7 +11,7 @@ labels:
 ---
 
 
-##how smart questions affect software engineers?
+## how smart questions affect software engineers?
 
 I would like to start with saying how important to know about the difference smart questions and bad questions. 
 Maybe you don’t like to question at all because you are too shy or want to waste your time on the questions.
@@ -24,7 +24,7 @@ The results from repeated smart questions end up developing myself.
 Smart questions in software engineering are pretty much like the real life. 
 Smart questions will prompt the users on forums like stackoverflow.com to answer the smart way. 
 
-##Avoiding stupid questioning 
+## Avoiding stupid questioning 
 
 Almost everyone will not be able to give you a correct answer that you want for your question,
 if you don’t tell them what you exactly expect them for the answer. 
@@ -50,7 +50,7 @@ Those questions would give you more useful information. For instance, if you are
 you should notify “what” exactly symptoms the problem has, 
 and “when” it happened so that users can clearly and closely look into some points that they think that that problem has occurred.
 
-##Examples
+## Examples
 </p>
 
 <a href="https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do/231855#231855">
