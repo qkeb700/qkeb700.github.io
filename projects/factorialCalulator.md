@@ -11,7 +11,7 @@ labels:
 summary: A factor calculator that I developed for ICS 212. The program generates a list of factors of an interger given by the user interface.
 ---
 
-<img class="ui medium right floated rounded image" src="/images/calculators_math_factors.png">
+<img class="ui centered rounded huge image" src="/images/calculators_math_factors.png">
 
 This calculator Contains a user-interface function which requests the user to enter a integer, and returns the given integer.
 
