@@ -10,6 +10,11 @@ labels:
   - coding style
 ---
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/coding.png">
+  <img class="ui image" src="../images/coding2.jpg">
+</div>
+
 ## What is Coding Standards
 
 You must have heard about coding standards.  Let’s talk about Coding Standards in this project. 
