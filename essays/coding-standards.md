@@ -15,8 +15,7 @@ labels:
 You must have heard about coding standards.  Let’s talk about Coding Standards in this project. 
 Before I start on the topic, do you have any idea of what coding standards is and what it does?
 <a href="https://en.wikipedia.org/wiki/Coding_conventions">
-According to Wikipedia, 
-  
+According to Wikipedia (https://en.wikipedia.org/wiki/Coding_conventions), 
 coding standards are a set of guidelines for a specific programming language that recommend programming style, practices, 
 and methods for each aspect of a program written in that language. 
 Like it said the above, coding standards plays an important key role in computer language. 
