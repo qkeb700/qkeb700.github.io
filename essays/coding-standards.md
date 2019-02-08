@@ -10,10 +10,7 @@ labels:
   - coding style
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/coding.png">
-  <img class="ui image" src="../images/coding2.jpg">
-</div>
+<img class="ui medium right floated rounded image" src="../images/coding2.jpg">
 
 ## What is Coding Standards
 
