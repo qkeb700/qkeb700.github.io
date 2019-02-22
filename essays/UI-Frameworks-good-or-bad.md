@@ -63,6 +63,7 @@ because they used the same format on UI Frameworks, so it will be easy understan
 If there is no such a tool UI Frameworks, web programmers would have to remember and memorize a bunch of code for developing their web. 
 However, by using UI Frameworks, we skip all the unnecessary prats and easily design web.
 
+<img class="ui large right floated rounded image" src="../images/maxresdefault.jpg">
 
 ## Be part of UI Frameworks 
 
