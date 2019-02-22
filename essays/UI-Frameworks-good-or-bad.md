@@ -11,6 +11,8 @@ labels:
   - Web
 ---
 
+<img class="ui medium right floated rounded image" src="../images/coding2.jpg">
+
 ## What Is UI Frameworks
 
   You must at least once have heard about UI Frameworks, if you are a web software engineer or interested in developing the software on Web.
