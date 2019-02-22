@@ -11,7 +11,7 @@ labels:
   - Web
 ---
 
-<img class="ui medium right floated rounded image" src="../images/coding2.jpg">
+<img class="ui medium right floated rounded image" src="../images/UI-frameworks.jpg">
 
 ## What Is UI Frameworks
 
