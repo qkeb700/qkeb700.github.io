@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Is UI Frameworks Impoortant"
+title: "Why UI Frameworks Important"
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
 labels:
