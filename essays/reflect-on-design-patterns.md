@@ -12,7 +12,7 @@ labels:
 ---
 
 
-## What affects on car industry
+## Relationship between software and design patterns
 
 What do you think about the relationship between software development and design patterns? 
 At the beginning of software development, not much use of design patterns is needed. 
