@@ -22,6 +22,8 @@ books covering with design patterns were considered as such useless books becaus
 Since you start considering reusable and sustainable software, 
 you get to know how important patterns and object-oriented are. 
 
+## Characteristics of patterns
+
 The purpose of software development is to fix any problems. 
 Making programs you work on run properly and efficiently is the priority of using software.
 However, it is not everything about software. 
@@ -35,6 +37,8 @@ you get to face to bunch of similar problems with different code.
 That’s when you need to use patterns, and it’s used for communication for software developers.
 It also enables to guess what problems other people are facing to now.
 
+## Design patterns, one of three levels of patterns
+
 So, how do we study design patterns?  There are three levels of patterns code, class,
 and architecture. What I want to talk about here is Design pattern in class, 
 which is one of the levels. 
@@ -45,6 +49,8 @@ There are three types of patterns: Structural, Creational, and Behavioral.
 
 The design patterns are named from the book who wrote GoF(Gang of Four), 
 which is four famous computer scientist. 
+
+## What's good and bad?
 
 Although it is very useful developing software, there is bad side on using it. 
 First, it is usually used for objects-oriented developments. 
