@@ -24,13 +24,13 @@ My contributions to the web application, UH Manoalist are the landing page that 
 Through this team project, I learned a great experience working on the same project as a team. I believe I played a active role for this project and help my teammates struggling. 
 <h2>Screenshots</h2>
 <h3>Landing Page</h3>
-<img class='ui centered big image" src="\images\HomePage.png">
+<img class='ui centered huge image" src="..\images\HomePage.png">
 <h3>Categories Page</h3>
-<img class='ui centered big image" src="\images\CategoriesPage.png">
+<img class='ui centered huge image" src="..\images\CategoriesPage.png">
 <h3>Deleting a category</h3>
-<img class='ui centered big image" src="\images\beforedelete.png">
+<img class='ui centered big image" src="..\images\beforedelete.png">
 <h3>After Successful Delete</h3>
-<img class='ui centered big image" src="\images\afterdelete.png">
+<img class='ui centered big image" src="..\images\afterdelete.png">
 
 [Uhmanoalist Repo](https://github.com/uhmanoaslist/uhmanoalistcode)
 [Link to Github Page](https://github.com/uhmanoaslist/uhmanoaslist.github.io/blob/master/index.md)
