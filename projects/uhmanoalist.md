@@ -33,6 +33,7 @@ Through this team project, I learned a great experience working on the same proj
 <img class="ui centered big image" src="..\images\afterdelete.png">
 
 [Uhmanoalist Repo](https://github.com/uhmanoaslist/uhmanoalistcode)
+
 [Link to Github Page](https://github.com/uhmanoaslist/uhmanoaslist.github.io/blob/master/index.md)
 
 
