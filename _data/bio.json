@@ -44,6 +44,11 @@
       ]
     },
     {
+      "name": "cryptography",
+      "keywords": [
+      ]
+    },
+    {
       "name": "Computer Security",
       "keywords": [
       ]
@@ -57,9 +62,25 @@
         "C",
         "C++",
         "Java",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Group Development",
+      "level": "",
+      "keywords": [
+        "Git/Github"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "React",
+        "Meteor",
+        "Semantic-UI"
       ]
     },
     {
@@ -67,20 +88,30 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
+        "Unix",
+        "IntelliJ",
         "g++",
-        "TI LaunchPad"
+        "Eclipse"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2020)",
-      "studyType": "B.S.",
+      "area": "Computer Science - Security Track (expected Fall, 2020)",
+      "studyType": "B.A.",
       "startDate": "2018-08-20",
       "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Liberal Arts",
+      "studyType": "B.A.",
+      "startDate": "2014",
+      "endDate": "2016",
       "gpa": "",
       "courses": [
       ]
@@ -95,6 +126,19 @@
       "endDate": "2014-03-04",
       "summary": "",
       "highlights": [
+      ]
+    },
+    {
+      "company": "IT Paradise Inc",
+      "position": "Internship",
+      "website": "",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "",
+      "highlights": [
+        "Checking client information contantly",
+        "Keeping client's demands and supply in the database updated",
+        "Stock management in system"
       ]
     }
   ],
@@ -126,9 +170,9 @@
   "awards": [
     {
       "title": "International Merit Award Scholarship",
-      "date": "2018-Present",
+      "date": "2018-2018",
       "awarder": "State of Hawaii",
-      "summary": "This scholarship recognizes your outstanding academic achievements."
+      "summary": "This scholarship recognizes your outstanding academic achievements. GIven to international students who get a 3.5 gpa or higher"
     }
   ],
   "references": [
