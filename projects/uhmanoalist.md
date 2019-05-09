@@ -29,7 +29,7 @@ Through this team project, I learned a great experience working on the same proj
 <img class='ui centered big image" src="\images\CategoriesPage.png">
 <h3>Deleting a category</h3>
 <img class='ui centered big image" src="\images\beforedelete.png">
-<h3>Bert Alert After Successful Delete</h3>
+<h3>After Successful Delete</h3>
 <img class='ui centered big image" src="\images\afterdelete.png">
   
 [Link to Github Page](https://github.com/uhmanoaslist/uhmanoaslist.github.io/blob/master/index.md)
