@@ -157,7 +157,13 @@
   "awards": [
     {
       "title": "International Merit Award Scholarship",
-      "date": "2018-2018",
+      "date": "2018-2019",
+      "awarder": "State of Hawaii",
+      "summary": "This scholarship recognizes your outstanding academic achievements. GIven to international students who get a 3.5 gpa or higher"
+    },
+    {
+      "title": "International Merit Award Scholarship",
+      "date": "2019-2020",
       "awarder": "State of Hawaii",
       "summary": "This scholarship recognizes your outstanding academic achievements. GIven to international students who get a 3.5 gpa or higher"
     }
