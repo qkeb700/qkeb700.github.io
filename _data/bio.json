@@ -91,7 +91,8 @@
         "Unix",
         "IntelliJ",
         "g++",
-        "Eclipse"
+        "Eclipse",
+        "Linux"
       ]
     }
   ],
@@ -103,7 +104,20 @@
       "startDate": "2018-08-20",
       "endDate": "Present",
       "gpa": "",
-      "courses": [
+      "courses": [ICS111- Intro to CS,
+                  ICS141- Discrete Math I,
+                  ICS211- Intro to CS II,
+                  ICS212- Program Structure,
+                  ICS222- Basic Concepts of CS,
+                  ICS241- Discrete Math II,
+                  ICS311- Algorithms,
+                  ICS314- Software Engineering I,
+                  ICS321- Data Storage and Retrieval,
+                  ICS332- Operating Systems,
+                  ICS335- Security and Trust I,
+                  ICS425- Computer Security and Ethics,
+                  ICS451- Data Networks,
+                  EE406- Intro to Comp & Ntwrk Security
       ]
     },
     {
@@ -136,7 +150,7 @@
       "endDate": "2017",
       "summary": "",
       "highlights": [
-        "Checking client information contantly",
+        "Checking client information constantly",
         "Keeping client's demands and supply in the database updated",
         "Stock management in system"
       ]
