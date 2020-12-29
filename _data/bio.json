@@ -99,11 +99,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science - Security Track (expected Fall, 2020)",
+      "area": "Computer Science - Security Track",
       "studyType": "B.A.",
       "startDate": "2018-08-20",
-      "endDate": "Present",
-      "gpa": "",
+      "endDate": "2020-12-20",
+      "gpa": "3.60",
       "courses": [ICS111- Intro to CS,
                   ICS141- Discrete Math I,
                   ICS211- Intro to CS II,
@@ -128,7 +128,7 @@
       "studyType": "A.A.",
       "startDate": "2014",
       "endDate": "2016",
-      "gpa": "",
+      "gpa": "3.70",
       "courses": [
       ]
     }
