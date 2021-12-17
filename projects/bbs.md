@@ -155,3 +155,21 @@ JSON 데이터를 처리하기 위한 자바 라이브러리를 Bean으로 가�
 Ajax로 받아온 input값에 따라서 댓글을 작성, 수정, 삭제 할 수 있고 각 기능을 수행 할 수 있다. 
 
 
+#### 7. 답글 달기 기능
+DAO를 수정하여 Parameter 로 들어오는 id 값의 유무로 DB에 insert해주는 방식을 달리한다.
+
+<img class="ui centered huge image" src="..\images\bbs31.png">
+<img class="ui centered huge image" src="..\images\bbs32.png">
+
+Id의 값이 있을 때는 열람 중인 게시물에 대한 답글을 쓴다. 이 경우, orN은 원래 답글을 쓰고자 했던 게시물의 orN 값을 갖고 grN 과 lyN 은 원래 게시물의 값보다 1씩 증가한 값을 갖는다. 만약 원래 게시물에 다른 답변이 존재하고 있었다면 grN > ? 조건을 통해 모두 grN 을 1씩 증가시킴으로 순서에 문제가 생기지 않게 한다.
+Id의 값이 없을 때는 새로운 게시물을 작성한다. 기존 게시물들과 엮이지 않는 새로운 게시물이기 때문에 orN의 Max를 찾아주고 그것에 1을 증가시켜서 새 글을 만들어 준다.
+
+<img class="ui centered huge image" src="..\images\bbs33.png">
+
+게시물과 게시물에 대한 답글을 순 차대로 출력하기 위해서 페이징을 위한 쿼리문을 수정해야한다. 
+
+<img class="ui centered huge image" src="..\images\bbs34.png">
+
+출력 시, 게시물과 게시물에 대한 답글을 구분하기 위해서 답글은 grN 이 원본의 값인 0 보다 크면 앞 쪽에 빈 공간을 주어서 구분하였다. 답글에 대한 답글은 lyN의 값으로 구분하여 답글에 주었던 공간보다 더 많은 빈 공간을 넣어서 구분한다. 게시물의 깔끔한 디자인을 위해서 답글에 대한 답글의 제한은 최대 2개로 제한한다.
+
+<img class="ui centered huge image" src="..\images\bbs35.png">
