@@ -219,4 +219,6 @@ Id의 값이 없을 때는 새로운 게시물을 작성한다. 기존 게시물
 게시물에 답글 달기 출력.
 
 
-### [소스 코드 보러 가기] : (https://github.com/qkeb700/board)
+### 소스 코드 보러 가기
+링크 here
+(https://github.com/qkeb700/board)
