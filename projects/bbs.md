@@ -1,3 +1,22 @@
+---
+layout: project
+type: project
+image: images/bbs35.png
+title: Hoyeon's bbs
+permalink: projects/bbs
+# All dates must be YYYY-MM-DD format!
+date: 2021-12-17
+labels:
+  - Java
+  - CSS
+  - HTML
+  - Javascript
+  - JQuery
+  - MySQL
+  - JSP
+  - AJAX
+summary: A project that shows lists of bbs.
+---
 
 # 개인 프로젝트: 게시판
 
