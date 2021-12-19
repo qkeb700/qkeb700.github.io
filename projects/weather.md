@@ -74,4 +74,4 @@ geolocation 값을 기반으로하고 url을 open API인 이미지속 주소로 
 
 
 ### 소스 코드 보러 가기
-[링크 클릭](https://github.com/qkeb700/weather)
+[링크 클릭](https://github.com/qkeb700/open_weather)
