@@ -15,3 +15,5 @@ labels:
   - JSP
 summary: show temperature of location where you live around using Open API.
 ---
+
+# 개인 프로젝트: Open API 날씨
