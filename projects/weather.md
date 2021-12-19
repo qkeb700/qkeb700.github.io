@@ -31,42 +31,42 @@ summary: show temperature of location where you live around using Open API.
 
 ## 프로젝트 상세 소개
 
-#### Geolocation API 사용전
+### Geolocation API 사용전
 
 <img class="ui centered huge image" src="..\images\beforeGeolocation.png">
 
-#### Geolocation API 사용후
+### Geolocation API 사용후
 
 <img class="ui centered huge image" src="..\images\weathermain.png">
 
-#### 위치 검색을 통한 날씨 정보 불러오기
+### 위치 검색을 통한 날씨 정보 불러오기
 
 <img class="ui centered huge image" src="..\images\searchfront.png">
 
-### Project Structure
+## Project Structure
 
-#### Geolocation API 불러오기
+### Geolocation API 불러오기
 
 <img class="ui centered huge image" src="..\images\geolocationapi.png">
 
 getCurrentPosition() 메서드를 호출해서 사용자의 현재 위치를 얻을 수 있다.
 
 
-#### getWeather 메서드 만들기
+### getWeather 메서드 만들기
 
 <img class="ui centered huge image" src="..\images\getweather.png">
 
 위에서 불러온 geolocation API 로 latitude 와 longitude 값을 받고 getWeather 메서드의 인자값으로 날씨를 위한 open API 를 위해 사용되어진다.
 
 
-#### Ajax 를 사용하여 통신하기
+### Ajax 를 사용하여 통신하기
 
 <img class="ui centered huge image" src="..\images\ajaxweather.png">
 
 geolocation 값을 기반으로하고 url을 open API인 이미지속 주소로 하여 실시간 날씨 정보를 받아오고 데이터를 뿌려준다.
 
 
-#### 위치 검색에 맞게 날씨 정보 변경하기
+### 위치 검색에 맞게 날씨 정보 변경하기
 
 <img class="ui centered huge image" src="..\images\searchweather.png">
 
