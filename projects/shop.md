@@ -16,7 +16,7 @@ labels:
 summary: UX/UI based Online Shopping mall
 ---
 
-# Hoyeon's Online Shopping mall!
+# 프로젝트: 온라인 쇼핑몰
 
 ### 소스코드 보러가기
 링크 : [https://github.com/qkeb700/shop](https://github.com/qkeb700/shop)
