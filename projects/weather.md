@@ -17,3 +17,7 @@ summary: show temperature of location where you live around using Open API.
 ---
 
 # 개인 프로젝트: Open API 날씨
+
+
+### 소스 코드 보러 가기
+[링크 클릭](https://github.com/qkeb700/shop)
