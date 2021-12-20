@@ -33,7 +33,7 @@ summary: UX/UI based Online Shopping mall
 
 ## 1. 이미지 화면 슬라이더
 > 일정 시간마다 화면에 보이는 이미지가 자동으로 전환 됩니다.
-<img class="ui centered huge image" src="..\images\viewhange.png">
+<img class="ui centered huge image" src="..\images\viewchange.png">
 
 
 ### 소스코드 보러가기
