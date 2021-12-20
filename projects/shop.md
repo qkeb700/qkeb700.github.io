@@ -29,8 +29,10 @@ summary: UX/UI based Online Shopping mall
 - ##### 모든 데이터를 JSON 을 사용해 빠르게 속도처리
 - ##### Ajax 를 사용한 효율적인 데이터 처리
 
-### 1. 이미지 화면 슬라이더
+# 사용 방법
 
+## 1. 이미지 화면 슬라이더
+> 일정 시간마다 화면에 보이는 이미지가 자동으로 전환 됩니다.
 <img class="ui centered huge image" src="..\images\viewshange.png">
 
 
