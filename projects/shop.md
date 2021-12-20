@@ -53,5 +53,24 @@ summary: UX/UI based Online Shopping mall
 
 <img class="ui centered huge image" src="..\images\viewdetail.png">
 
+# 프로젝트 기술 스택
+
+## 1. 이미지 화면 슬라이더
+> 3초 주기로 eq(0)의 이미지가 잘리고 맨 마지막에 붙고 다음 이미지가 fadeIn 되어서 화면에 출력된다.
+
+<img class="ui centered huge image" src="..\images\slidercoding.png">
+
+## 2. 카테고리별 분류
+> 카테고리의 값에 따라 left 값을 다르게 주어서 보여주는 면을 다르게 합니다.
+
+<img class="ui centered huge image" src="..\images\weeklycoding.png"> 
+
+## 3. Ajax 통신으로 데이터 가져오기
+> color 값과 size 값을 JSON 으로 만들어 놓고 ajax 를 이용하여 데이터를 불러온다.
+
+<img class="ui centered huge image" src="..\images\ajaxcolor.png">
+
+<img class="ui centered huge image" src="..\images\ajaxsize.png">
+
 ### 소스코드 보러가기
 링크 : [https://github.com/qkeb700/shop](https://github.com/qkeb700/shop)
