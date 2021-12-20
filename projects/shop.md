@@ -33,8 +33,25 @@ summary: UX/UI based Online Shopping mall
 
 ## 1. 이미지 화면 슬라이더
 > 일정 시간마다 화면에 보이는 이미지가 자동으로 전환 됩니다.
+
 <img class="ui centered huge image" src="..\images\viewchange.png">
 
+## 2. 카테고리별 분류
+> 카테고리별로 컨텐츠를 분류하여 클릭시 해당 카테고리 컨텐츠를 보여줍니다.
+
+<img class="ui centered huge image" src="..\images\weekly.png">
+
+## 3. 다양한 레이아웃 형태
+> 원하는 레이아웃을 눌러서 컨텐츠를 표시할 수 있습니다.
+
+<img class="ui centered huge image" src="..\images\firstlist.png">
+
+<img class="ui centered huge image" src="..\images\secondlist.png">
+
+## 4. 제품 주문
+> 원하는 색상, 크기, 수량을 직접 주문할 수 있습니다.
+
+<img class="ui centered huge image" src="..\images\viewdetail.png">
 
 ### 소스코드 보러가기
 링크 : [https://github.com/qkeb700/shop](https://github.com/qkeb700/shop)
