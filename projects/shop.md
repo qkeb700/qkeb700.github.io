@@ -31,7 +31,7 @@ summary: UX/UI based Online Shopping mall
 
 ### 1. 이미지 화면 슬라이더
 
-![viewchange](https://user-images.githubusercontent.com/46728564/146730501-999c3112-d3c8-462e-81f9-bfa57ac05f9a.png)
+<img class="ui centered huge image" src="..\images\viewshange.png">
 
 
 ### 소스코드 보러가기
