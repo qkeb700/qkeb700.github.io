@@ -4,15 +4,15 @@
     "label": "Student",
     "picture": "https://qkeb700.github.io/images/wmdaud2.JPG",
     "email": "hjang@hawaii.edu",
-    "phone": "808-384-7404",
+    "phone": "+82010-6763-8456",
     "website": "https://qkeb700.github.io",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "summary": "I'm taking on the role of a full-stack developer in various projects, handling both front and back-end responsibilities, primarily focusing on web application development. I studied for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
-      "address": "1212 Punahou St",
-      "postalCode": "96826",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "27, Seongan-ro 31na-gil, Gangdong-gu",
+      "postalCode": "05531",
+      "city": "Seoul",
+      "countryCode": "Republic of Korea",
+      "region": "Korea"
     },
     "profiles": [
       {
@@ -62,7 +62,9 @@
         "C",
         "C++",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Vue.js",
+        "JPA"
       ]
     },
     {
@@ -77,9 +79,13 @@
       "level": "",
       "keywords": [
         "Javascript",
-        "HTML",
         "React",
+        "Vue",
         "Meteor",
+        "Java",
+        "JPA",
+        "Oracle",
+        "Mybatis",
         "Semantic-UI"
       ]
     },
@@ -155,6 +161,39 @@
         "Checking client information constantly",
         "Keeping client's demands and supply in the database updated",
         "Stock management in system"
+      ]
+    },
+    {
+      "company": "Hanmi Healthcare Co., Ltd",
+      "position": "Full-time",
+      "website": "",
+      "startDate": "2022-04",
+      "endDate": "2022-11",
+      "summary": "",
+      "highlights": [
+        "Conducted code refactoring to enhance productivity by replacing repetitive code segments and hardcoding",
+        "Improved backend services to enhance user/admin screen data matching and developed user information and
+         data retrieval features",
+        "Developed a service for sales representatives, enabling them to save consultation history reports without
+         unified authentication in CRM",
+        "Implemented Whitelist access control for sales representatives to access consultation history report writing
+         URLs, managing permissions and authentication exceptions",
+        "Organized DB object scripts and addressed connection leakage errors in the development environment.
+         Reduced content download time by 150% by storing large image attachments on the file server"
+      ]
+    },
+    {
+      "company": "Hanmi Science Co., Ltd",
+      "position": "Full-time",
+      "website": "",
+      "startDate": "2022-11",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Developed and maintained reservation services, integrating with other systems via APIs",
+        "Designed and implemented backend functionalities for logging and document issuance",
+        "Conducted troubleshooting and optimized database performance using MyBatis and JavaScript",
+        "Collaborated with cross-functional teams for feature development and enhancements"
       ]
     }
   ],
