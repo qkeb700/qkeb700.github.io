@@ -18,142 +18,142 @@ labels:
 summary: A project that shows lists of bbs.
 ---
 
-# 개인 프로젝트: 게시판
+# Project: Forum
 
-## 개발환경
-- #####	개발 툴: Eclipse
-- #####	개발언어: JAVA JDK 1.8 64bit
-- #####	서버 및 데이터베이스: Tomcat 9.0v, MySQL
-- #####	디자인 API: Bootstrap 4, Font-awesome
-- #####	깃허브 주소: https://github.com/qkeb700
+## Development environment
+- #####	Development tool: Eclipse
+- #####	Development language: JAVA JDK 1.8 64bit
+- #####	Server and database: Tomcat 9.0v, MySQL
+- #####	Design API: Design API: Bootstrap 4, Font-awesome
+- #####	GitHub : https://github.com/qkeb700
 
-## 프로젝트 요약
-- #####	회원가입, 로그인을 하고 글을 작성, 읽기, 수정, 삭제 할 수 있습니다.
-- #####	아이디/비밀번호를 찾는 기능과 글 작성시 파일을 업로드 할 수 있습니다.
-- #####	관련 내용 게시물을 찾아 보여주는 검색 창이 있습니다.
-- #####	한번 본 게시물의 조회수는 올라가지 않고 댓글을 달고 수정, 삭제 할 수 있습니다.
-- #####	보안을 위해 권한이 허가되지 않은 경로로의 접근은 제한합니다.
+## Project summary
+- #####	Users can sign up, log in, and perform CRUD operations on posts.
+- #####	Users can retrieve their ID/password and upload files when creating a post.
+- #####	There is a search feature that finds and displays related content posts.
+- #####	Viewing a post does not increase the view count, and users can comment on, edit, or delete posts.
+- #####	Access to unauthorized routes is restricted for security purposes.
 
-## 프로젝트 상세 소개
-### 프론트엔드 기술
-#### 1.	회원가입
-회원 약관 동의를 통해 가입을 할 수 있습니다.
- 
+## Detailed introduction to the project
+### Front-end technology
+#### 1.	Sign up
+Users can sign up by agreeing to the membership terms and conditions.
+
 <img class="ui centered huge image" src="..\images\bbs1.png">
 
  
-#### 2.	로그인
-회원가입을 통해 생성한 아이디와 비밀번호로 로그인을 할 수 있습니다.
+#### 2.	Login
+Users can log in with the ID and password they created during membership registration.
  
 <img class="ui centered huge image" src="..\images\bbs2.png">
 
 
-#### 3.	홈
-카테고리별로 생성된 게시판 목록을 조회 할 수 있습니다.
+#### 3.	Home
+Users can view a categorized list of forum.
  
 <img class="ui centered huge image" src="..\images\bbs3.png">
 
 
-#### 4.	게시판 작성
-글 작성을 통해 파일을 첨부하고 기본적인 정보를 입력 할 수 있습니다.
+#### 4.	Create a forum
+By writing a post, users can attach files and enter basic information.
 
  <img class="ui centered huge image" src="..\images\bbs4.png">
 
 
-#### 5.	게시판 보기
-작성한 글의 상세 내용을 볼 수 있고 댓글도 볼 수 있습니다.
+#### 5.	View forum
+Users can view the details of the articles they wrote and also view comments.
  
 <img class="ui centered huge image" src="..\images\bbs5.png">
 
 
-#### 6.	게시판 수정
-게시판 관련 정보를 변경 할 수 있습니다.
+#### 6.	Forum modification
+Users can change information related to the forum.
  
 <img class="ui centered huge image" src="..\images\bbs6.png">
 
-#### 7.	게시판 삭제
-게시판 생성시 입력한 비밀번호를 입력하여 삭제 할 수 있습니다.
+#### 7.	Delete forum
+Users can delete a forum by entering the password they used when creating it.
  
 <img class="ui centered huge image" src="..\images\bbs7.png">
 
 
 
-### 백엔드 기술 
-#### 1.	아이디/비밀번호 찾기
-JQuery를 통하여 Ajax 통신사용
+### Backend technology
+#### 1.	Find ID/Password
+Implemented using Ajax communication through JQuery
 
  <img class="ui centered huge image" src="..\images\bbs8.png">
 
-비동기통신으로 데이터 교환이 이루어지고 성공적으로 값을 가져와 출력한다.
+Data is exchanged through asynchronous communication, and the value is successfully retrieved and output.
 
 <img class="ui centered huge image" src="..\images\bbs9.png">
 
 
 
-#### 2.	파일업로드 하기
+#### 2.	Upload files
 
  <img class="ui centered huge image" src="..\images\bbs10.png">
 
-파일 업로드 기능을 위해 form 태그에 enctype 옵션을 추가한다
+Added enctype option to form tag for file upload function.
 
 
  <img class="ui centered huge image" src="..\images\bbs11.png">
 
-업로드 할 파일이 저장될 장소를 dir로 저장하고 MultipartRequest로 데이터를 가져와 변수에 저장한다
+Saved the location where the file to be uploaded is stored as dir, retrieved the data using MultipartRequest, and saved it in a variable.
 
 
  <img class="ui centered huge image" src="..\images\bbs12.png">
 
-DB connect와 DAO 을 통하여 업로드 할 파일과 정보들을 insert 합니다.
+Inserted files and information to be uploaded through DB connection and DAO.
 
-#### 3.	조회수 올리기
-Cookie와 JSTL 사용
+#### 3.	 Increase views
+Used Cookies and JSTL
 
  <img class="ui centered huge image" src="..\images\bbs13.png">
 
-현재 게시물의 num과 cookie의 값이 같지 않을 때, cookie의 값을 현재 게시물의 num 값으로 하고 count를 1 증가시켜서 조회수를 올려줍니다.
+When the num and cookie values ​​of the current post are not the same, the cookie value is set to the num value of the current post and the count is increased by 1 to increase the number of views.
 
-#### 4.	페이징 구현
-DTO와 DAO을 사용하여 데이터를 가져와 list.jsp에서 구현한다.
+#### 4.	 Paging implementation
+Used DTO and DAO to retrieve data and implemented it in list.jsp.
 
  <img class="ui centered huge image" src="..\images\bbs14.png">
 
-페이징을 위한 기본값들을 세팅한다.
+Set default values ​​for paging.
 
 
 <img class="ui centered huge image" src="..\images\bbs15.png">
 <img class="ui centered huge image" src="..\images\bbs16.png">
 <img class="ui centered huge image" src="..\images\bbs17.png">
  
-데이터베이스에서 한 번에 불러올 레코드를 제한해준다.
+Limited the number of records to be loaded from the database at one time.
 
 
  <img class="ui centered huge image" src="..\images\bbs18.png">
 
-DTO인 페이징 클래스에 현재 페이지와 총 레코드의 개수를 세팅해주고 DAO을 이용하여 필요한 값들을 list에 저장한다
+Set the current page and total number of records in the paging class, which is a DTO, and used DAO to store the necessary values ​​in a list.
 
 
 <img class="ui centered huge image" src="..\images\bbs19.png">
 
-List.jsp에 페이징을 구현한다..
+Implemented paging in List.jsp.
 
 
-#### 5.	검색으로 관련 게시물 찾기
-제목, 글쓴이 또는 내용으로 관련된 게시물을 찾을 수 있다.
+#### 5.	Find related posts through search
+Users can find related posts by title, author, or content.
 
  <img class="ui centered huge image" src="..\images\bbs20.png">
 
-Form 태그 안에 list.jsp 자신에게 보내는 input 값을 만든다.
+Created an input value sent to list.jsp within the Form tag.
 
 
  <img class="ui centered huge image" src="..\images\bbs21.png">
 
-JQuery를 이용하여 전송할 input 값에 어떠한 방식으로 검색할지를 저장시킨다.
+Used JQuery to store the search method in the input value to be transmitted.
 
 
  <img class="ui centered huge image" src="..\images\bbs22.png">
 
-변수 col과 val을 선언해주고 form 태그에서 보낸 colname과 values의 값들을 저장시킨다.
+Declared variables col and val and stored the values ​​of colname and values ​​sent from the form tag.
 
 
  
@@ -162,62 +162,62 @@ JQuery를 이용하여 전송할 input 값에 어떠한 방식으로 검색할�
 <img class="ui centered huge image" src="..\images\bbs25.png">
 
  
-위에서 구현한 페이징 메소드에 col과 val 두 개의 매개변수를 추가하고 switch 문의 조건에 맞게 검색 내용을 데이터베이스값에서 찾는다.
+Added two parameters, col and val, to the paging method implemented above and searched the database values ​​according to the conditions of the switch statement.
 
 
 
 <img class="ui centered huge image" src="..\images\bbs26.png">
 
-검색 내용에 관련된 게시물의 수와 출력이 되어 페이징이 되어있는 것을 볼 수 있다.
+Users can see the number of posts related to the search content and the output and paging.
 
 
 
-#### 6.	댓글 기능 구현
-Ajax 비동기 통신으로 값을 전달하여 댓글을 등록, 수정, 삭제 할 수 있다.
+#### 6.	 Implementation of comment function
+Users can register, edit, or delete comments by passing values ​​through Ajax asynchronous communication.
 
  <img class="ui centered huge image" src="..\images\bbs27.png">
 
-form태그 안에 전송할 값들을 $form에 저장하여 통신한다. 
+The values ​​to be transmitted within the form tag are stored in $form and communicated. 
 
 
 <img class="ui centered huge image" src="..\images\bbs28.png">
 <img class="ui centered huge image" src="..\images\bbs29.png">
  
-JSON 데이터를 처리하기 위한 자바 라이브러리를 Bean으로 가져온다.
-댓글의 기능에 맞게 result 값을 넣어주고 JSON 객체를 문자열 데이터로 변경해준다
+A Java library for processing JSON data is imported as a Bean.
+Entered the result value according to the comment function and changed the JSON object to string data.
 
 
  <img class="ui centered huge image" src="..\images\bbs30.png">
 
-Ajax로 받아온 input값에 따라서 댓글을 작성, 수정, 삭제 할 수 있고 각 기능을 수행 할 수 있다. 
+Depending on the input value received through Ajax, comments can be created, modified, or deleted, and each function can be performed.. 
 
 
 
-#### 7. 답글 달기 기능
-DAO를 수정하여 Parameter 로 들어오는 id 값의 유무로 DB에 insert해주는 방식을 달리한다.
+#### 7. Reply function
+By modifying the DAO, the method of insertion into the DB is different depending on the presence or absence of the id value coming in as a parameter.
 
 <img class="ui centered huge image" src="..\images\bbs31.png">
 <img class="ui centered huge image" src="..\images\bbs32.png">
 
-Id의 값이 있을 때는 열람 중인 게시물에 대한 답글을 쓴다. 이 경우, orN은 원래 답글을 쓰고자 했던 게시물의 orN 값을 갖고 grN 과 lyN 은 원래 게시물의 값보다 1씩 증가한 값을 갖는다. 만약 원래 게시물에 다른 답변이 존재하고 있었다면 grN > ? 조건을 통해 모두 grN 을 1씩 증가시킴으로 순서에 문제가 생기지 않게 한다.
-Id의 값이 없을 때는 새로운 게시물을 작성한다. 기존 게시물들과 엮이지 않는 새로운 게시물이기 때문에 orN의 Max를 찾아주고 그것에 1을 증가시켜서 새 글을 만들어 준다.
+When there is an ID value, a reply is written to the post being viewed. In this case, orN contains the value of the post to which the original reply was intended, and grN and lyN have values ​​incremented by 1 from the original post's value. If there were other replies to the original post, grN > ? All grNs are increased by 1 through conditions to prevent ordering problems.
+If there is no ID value, a new post is created. Because it is a new post that is not connected to existing posts, a new post is created by finding the Max of orN and increasing it by 1.
 
 
 
 <img class="ui centered huge image" src="..\images\bbs33.png">
 
-게시물과 게시물에 대한 답글을 순 차대로 출력하기 위해서 페이징을 위한 쿼리문을 수정해야한다. 
+In order to output posts and replies to posts in order, the query statement for paging must be modified.
 
 
 
 <img class="ui centered huge image" src="..\images\bbs34.png">
 
-출력 시, 게시물과 게시물에 대한 답글을 구분하기 위해서 답글은 grN 이 원본의 값인 0 보다 크면 앞 쪽에 빈 공간을 주어서 구분하였다. 답글에 대한 답글은 lyN의 값으로 구분하여 답글에 주었던 공간보다 더 많은 빈 공간을 넣어서 구분한다. 게시물의 깔끔한 디자인을 위해서 답글에 대한 답글의 제한은 최대 2개로 제한한다.
+When printing, in order to distinguish posts from replies to posts, replies were separated by an empty space at the front if grN was greater than the original value of 0. Replies to replies are separated by the value of lyN and were given more empty space than the reply. For a clean design of the post, the number of replies to a reply was limited to a maximum of two.
 
 <img class="ui centered huge image" src="..\images\bbs35.png">
 
-게시물에 답글 달기 출력.
+Print a reply to a post.
 
 
-### 소스 코드 보러 가기
-[링크 here](https://github.com/qkeb700/board)
+### View source code
+[Link here](https://github.com/qkeb700/board)
